@@ -10,13 +10,13 @@ public class TestMe {
         }
         return tmp;
     }
-    
+
     public String testString(String s){
-        // try {
-        //     Thread.sleep(200);
-        // } catch (Exception e) {
-        //     System.out.println(e);
-        // }
+        try {
+            Thread.sleep(200);
+        } catch (Exception e) {
+            System.out.println(e);
+        }
         return s;
     }
 
