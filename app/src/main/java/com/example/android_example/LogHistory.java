@@ -86,7 +86,7 @@ public class LogHistory implements Parcelable {
     public void addEntry(String text, long timestamp) {
         mData.add(new Pair<String, Long>(text, timestamp));
         try {
-            Thread.sleep(0);
+            Thread.sleep(50);
         } catch (InterruptedException ie) {
             Thread.currentThread().interrupt();
         }
